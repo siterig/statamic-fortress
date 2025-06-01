@@ -1,0 +1,37 @@
+{
+    "name": "siterig/fortress",
+    "autoload": {
+        "psr-4": {
+            "Siterig\\Fortress\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Siterig\\Fortress\\Tests\\": "tests"
+        }
+    },
+    "require": {
+        "statamic/cms": "^5.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^9.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "pixelfear/composer-dist-plugin": true
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Fortress",
+            "description": "Fortress addon"
+        },
+        "laravel": {
+            "providers": [
+                "Siterig\\Fortress\\ServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
