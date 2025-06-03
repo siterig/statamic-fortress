@@ -1,4 +1,4 @@
-# Fortress - Statamic Security Addon
+# Fortress for Statamic
 
 A comprehensive security addon for Statamic that provides Web Application Firewall (WAF), brute force protection, country blocking, vulnerability scanning, and audit logging capabilities.
 
